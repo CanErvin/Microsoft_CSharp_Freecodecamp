@@ -1,0 +1,38 @@
+//There are many data types in C#. I only need to know about five or six data types since they cover most scenarios (According to Microsoft).
+//If you only wanted a single alphanumeric character printed to screen, you could create a char literal by surrounding one alphanumeric character in single quotes. 
+
+Console.WriteLine('b');
+
+//Notice that the letter b is surrounded with single quotation marks 'b'. Single quotes create a character literal.
+
+Console.WriteLine(123);
+
+//To display a numeric whole number (no fractions) value in the output console, you can use an int literal.
+//A floating-point number is a number that contains a decimal, for example 3.14159. C# supports three data types to represent decimal numbers: float, double, and decimal.
+/*Float Type    Precision
+----------------------------
+float         ~6-9 digits
+double        ~15-17 digits
+decimal        28-29 digits*/
+
+Console.WriteLine(0.25F);
+Console.WriteLine(12.39816M); 
+//To create a decimal literal, append the letter m after the number.
+
+Console.WriteLine(true);
+Console.WriteLine(false);
+
+//If you wanted to print a value representing either true or false, you could use a bool literal.
+
+//Earlier, you saw that strings and chars are used for "presentation, not calculation". If you need to perform a mathematical operation on numeric values, you should use an int or decimal.
+
+/*
+The main takeaway is that there are many data types, but you'll focus on just a few for now:
+
+string for words, phrases, or any alphanumeric data for presentation, not calculation
+char for a single alphanumeric character
+int for a whole number
+decimal for a number with a fractional component
+bool for a true/false value
+*/
+
