@@ -1,0 +1,11 @@
+//Class - It owns methods, in other words, methods dwell inside of classes. 
+//Member access operator - It is the period used to access a method.
+//Method is a job that has to be done. Each method regardless of parameters has paranthesis.
+//Method invocation operator is those paranthesis.
+//End of statement operator is the semicolon. For a statement must be a complete instruction in C#.
+//Literal string - I literally wanted the characters H, e, l, l, o, and so on, sent to the output.
+//The rules for writing C# code is called syntax. Just like human languages have rules regarding punctuation and sentence structure, computer programming languages also have rules.
+
+
+
+Console.WriteLine("Hello");
