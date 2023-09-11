@@ -1,0 +1,22 @@
+//To create a new variable, you must first declare the data type of the variable, and then give it a name.
+string firstName;
+/*
+Variable names should use camel case, which is a style of writing that uses a lower-case letter at the beginning of the first word 
+and an upper-case letter at the beginning of each subsequent word. 
+For example, string thisIsCamelCase; */
+
+//User option: A
+//Game value: 15
+//Currency: USD
+//Buy: True (1)
+//Sell: False (0)
+//Customer Representative's name: Alan Richard
+
+char userOption;
+int gameValue;
+string gameCurrency;
+bool buyOrSell;
+string custRepName;
+custRepName= "Alan Richard";
+Console.WriteLine(custRepName);
+
