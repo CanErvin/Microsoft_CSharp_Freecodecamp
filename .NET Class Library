@@ -1,0 +1,46 @@
+/*
+When you need to find a book, a public library is a good place to look. After all, libraries contain thousands and thousands of books, 
+and they're organized into sections that help you to find what you're looking for. 
+When you need to implement a programming task, the .NET Class Library is a good place to look, because it is an organized collection of programming resources.
+The .NET Class Library is a collection of thousands of classes containing tens of thousands of methods. 
+For example, the .NET Class Library includes the Console class for developers working on console applications. 
+The Console class includes methods for input and output operations such as Write(), WriteLine(), Read(), ReadLine(), and many others. 
+For example, you may already be familiar with the following code:
+*/
+
+Console.WriteLine("Hello, World!")
+
+//You can think of a class as a container for methods, kind of like the sections of the public library. 
+//Developers typically keep related methods together in a single class. 
+//As you saw in the previous example, any methods that can send or receive information from a console window are collected into the System.Console class in the .NET Class Library.
+//C# data types (such as string and int) are actually made available through classes in the .NET Class Library. 
+//The C# language masks the connection between the data types and the .NET classes in order to simplify your work.
+
+//Start by typing the class name. In this case, the class name is Console.
+//Add the member access operator, the . symbol.
+//Add the method's name. In this case, the method's name is WriteLine.
+//Add the method invocation operator, which is a set of parentheses ().
+//Finally, specify the arguments that are passed to the method, if there are any, between the parentheses of the method invocation operator.
+
+//Methods may accept no parameters or multiple parameters, depending on how they were designed and implemented. When passing in multiple input parameters, separate them with a , symbol.
+//Methods may return a value when they complete their task, or they may return nothing (void).
+//Overloaded methods support several implementations of the method, each with a unique method signature (the number of input parameters and the data type of each input parameter).
+//IntelliSense can help write code more quickly. It provides a quick reference to methods, their return values, their overloaded versions, and the types of their input parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
